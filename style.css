@@ -1,7 +1,8 @@
 body {
   background-color: #101b10;
-  font-family: iosevka;
+  font-family: 'iosevka', 'Open Sans', sans-serif;
   display: flex;
+  
 }
 
 a {
@@ -11,6 +12,7 @@ a {
 
 .column {
   flex: 50%;
+  text-align: center;
 }
 
 
