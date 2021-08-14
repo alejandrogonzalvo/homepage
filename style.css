@@ -1,11 +1,16 @@
 body {
-  background-color: #101b10
+  background-color: #101b10;
   font-family: iosevka;
+  display: flex;
 }
 
 a {
-  color: #50bd63
-  text-decoration: none
+  color: #50bd63;
+  text-decoration: none;
+}
+
+.column {
+  flex: 50%;
 }
 
 
