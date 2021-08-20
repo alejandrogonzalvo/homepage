@@ -2,7 +2,7 @@
 
 * {
   font-family: 'Source Code Pro', monospace;
-  font-size: 32px;
+  font-size: 24px;
   transition: 0.1s ease-in-out;
   color: #50bd63;
 }
@@ -31,4 +31,6 @@ a {
 #welcome {
   position: fixed;
   top: 15%;
+
+  font-size: 48px;
 }
