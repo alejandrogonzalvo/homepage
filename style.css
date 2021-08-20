@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
 * {
-  font-family: 'VT323', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-size: 32px;
   transition: 0.1s ease-in-out;
+  color: #50bd63;
 }
 
 html, body {
@@ -12,12 +13,10 @@ html, body {
   background-color: #101b10;
   display: flex;
   align-items: center;
-  align-content: center;
   justify-content: center;
 }
 
-a { 
-  color: #50bd63;
+a {
   text-decoration: none;
 }
 
@@ -27,4 +26,9 @@ a {
   grid-template-columns: 360px;
   grid-template-rows: repeat(3, 60px);
   grid-gap: 0px;
+}
+
+#welcome {
+  position: fixed;
+  top: 15%;
 }
